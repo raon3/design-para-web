@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<title>Aula 3</title>
+	</head>
+	<style>
+		a, a:hover {
+			text-decoration: none;
+			color: white
+		}
+	</style>
+	<body>
+		<div class="alert alert-warning">		
+			<a href="https://www.google.com/" style="color: white" target="_blank" title="Google" class="btn btn-sm btn-warning" role="button">
+				<span class="spinner-grow spinner-grow-sm text-light"></span>
+				Google
+			</a>
+			<a href="mailto:jpapim@gmail.com?subject=Assunto do email&body=Texto do e-mail" class="btn btn-sm btn-primary" role="button">
+				Perguntas aqui
+			</a>
+			<a href="C:\Users\laboratorio\Documents\Arduino\libraries\readme.txt" class="btn btn-sm btn-primary" role="button">
+				readme.txt
+			</a>
+			<hr />
+			<nav class="navbar navbar-expand-sm">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="#top" class="btn btn-sm btn-outline-dark" role="button">
+							<!-- link para âncora: top -->
+							Ir para cima
+						</a>
+					</li>
+					<li><span>&nbsp;</span></li>
+					<li class="nav-item">
+						<a href="#text" class="btn btn-sm btn-outline-dark" role="button">
+							<!-- link para âncora: text -->
+							Aprender sobre links de texto
+						</a>
+					</li>
+					<li><span>&nbsp;</span></li>
+					<li class="nav-item">
+						<a href="#email" class="btn btn-sm btn-outline-dark" role="button">
+							<!-- link para âncora: email -->
+							Aprender sobre endereços de e-mail
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="jumbotron">
+			<h3>Login</h3>
+			<div id="notification"></div>
+			<table class="table table-responsive">
+				<tbody>
+					<tr id="nameBg">
+						<td>Login:</td>
+						<td><input id="name" type="text" /></td>
+					</tr>
+					<tr id="passBg">
+						<td>Password:</th>
+						<td><input id="password" type="password"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<button id="login" class="btn btn-sm btn-success" type="button">Entrar</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div>
+			<!-- âncora: top -->
+			<a name="top"></a>
+			<h1>HTML - Hipertexto de Referência / href</h1>
+			<p align="justify">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur elit, sit amet porttitor est. In quis arcu congue, sollicitudin leo eget, euismod mi. Etiam pretium sem sed tortor suscipit volutpat. Donec placerat est velit, nec mattis mi pharetra interdum. Cras egestas dolor id nulla efficitur cursus. Fusce vulputate purus vel ornare dictum. Aenean consequat imperdiet justo sit amet aliquam.
+				<br />
+				<br />
+				Donec ultricies libero augue, eu porta nisl bibendum eget. Phasellus tempus interdum mauris pharetra accumsan. Proin dolor tortor, dignissim non consequat non, fermentum at dui. Suspendisse nulla augue, sodales nec efficitur et, dignissim et ex. Proin vel bibendum ex. Proin condimentum ipsum sed porttitor rutrum. Pellentesque tempor, mi sed condimentum rutrum, turpis est posuere lectus, ac feugiat mi massa vitae purus. Nunc euismod blandit ornare. Proin condimentum at justo non cursus. Nulla facilisi. Nulla facilisi. Quisque volutpat nunc eget nibh mollis, a molestie turpis euismod. Integer faucibus dignissim rhoncus. Pellentesque ut aliquam arcu, eu dignissim nisl. Morbi a dui cursus, rutrum lorem sit amet, suscipit mauris. Ut eget varius erat, ac vestibulum neque.
+				<br />
+				<br />
+				Vestibulum lacus augue, facilisis sit amet justo id, aliquet blandit urna. Suspendisse eget scelerisque sapien. Duis non mi efficitur, imperdiet nunc nec, varius lacus. Cras diam tellus, imperdiet nec neque vitae, sagittis vulputate nunc. Integer vel aliquam augue. Fusce nunc lorem, imperdiet eget mauris vitae, pharetra ornare neque. Proin luctus urna eget tellus lobortis finibus. Phasellus et quam eu lacus aliquet rhoncus. Fusce in ligula elementum, molestie ligula vitae, blandit lorem. Maecenas placerat pellentesque felis nec sagittis. Morbi eu facilisis augue, et pulvinar quam. Quisque euismod efficitur augue, et egestas justo elementum id. Curabitur tempus lorem dui, at condimentum diam bibendum eu. In non tempor lectus, et gravida nisi. Donec tristique nec diam sed mollis. Curabitur in laoreet neque.
+				<br />
+				<br />
+				Nulla facilisi. Pellentesque mauris libero, viverra non convallis in, tristique eget lacus. Vestibulum aliquet ultricies varius. Duis vitae nisi id nulla maximus aliquam. Donec vitae venenatis augue. Phasellus ac pharetra lorem. Fusce id finibus erat. Phasellus venenatis odio dolor, at pretium nunc blandit vel. Suspendisse faucibus iaculis lectus, mattis varius neque scelerisque ut. Aliquam quis ullamcorper libero. Proin tempus mauris non blandit accumsan. Donec maximus venenatis lectus a facilisis. Sed eget molestie velit. In hac habitasse platea dictumst.
+				<br />
+				<br />
+				Suspendisse potenti. Praesent erat risus, consequat interdum lacus a, semper egestas nisl. Curabitur metus arcu, imperdiet nec scelerisque a, tempor nec nibh. Ut ut eleifend nulla. Nulla vestibulum lacinia accumsan. Pellentesque id sem turpis. In a pretium dui. Mauris tincidunt sem sed ipsum feugiat placerat id id erat. Mauris id justo sit amet leo laoreet porta a vel libero.
+			</p>
+		</div>
+		<hr />
+		<div>
+			<!-- âncora: text -->
+			<a name="text"></a>
+			<h2>HTML - Links de Texto</h2>
+			<p align="center">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur elit, sit amet porttitor est. In quis arcu congue, sollicitudin leo eget, euismod mi. Etiam pretium sem sed tortor suscipit volutpat. Donec placerat est velit, nec mattis mi pharetra interdum. Cras egestas dolor id nulla efficitur cursus. Fusce vulputate purus vel ornare dictum. Aenean consequat imperdiet justo sit amet aliquam.
+				<br />
+				<br />
+				Donec ultricies libero augue, eu porta nisl bibendum eget. Phasellus tempus interdum mauris pharetra accumsan. Proin dolor tortor, dignissim non consequat non, fermentum at dui. Suspendisse nulla augue, sodales nec efficitur et, dignissim et ex. Proin vel bibendum ex. Proin condimentum ipsum sed porttitor rutrum. Pellentesque tempor, mi sed condimentum rutrum, turpis est posuere lectus, ac feugiat mi massa vitae purus. Nunc euismod blandit ornare. Proin condimentum at justo non cursus. Nulla facilisi. Nulla facilisi. Quisque volutpat nunc eget nibh mollis, a molestie turpis euismod. Integer faucibus dignissim rhoncus. Pellentesque ut aliquam arcu, eu dignissim nisl. Morbi a dui cursus, rutrum lorem sit amet, suscipit mauris. Ut eget varius erat, ac vestibulum neque.
+				<br />
+				<br />
+				Vestibulum lacus augue, facilisis sit amet justo id, aliquet blandit urna. Suspendisse eget scelerisque sapien. Duis non mi efficitur, imperdiet nunc nec, varius lacus. Cras diam tellus, imperdiet nec neque vitae, sagittis vulputate nunc. Integer vel aliquam augue. Fusce nunc lorem, imperdiet eget mauris vitae, pharetra ornare neque. Proin luctus urna eget tellus lobortis finibus. Phasellus et quam eu lacus aliquet rhoncus. Fusce in ligula elementum, molestie ligula vitae, blandit lorem. Maecenas placerat pellentesque felis nec sagittis. Morbi eu facilisis augue, et pulvinar quam. Quisque euismod efficitur augue, et egestas justo elementum id. Curabitur tempus lorem dui, at condimentum diam bibendum eu. In non tempor lectus, et gravida nisi. Donec tristique nec diam sed mollis. Curabitur in laoreet neque.
+				<br />
+				<br />
+				Nulla facilisi. Pellentesque mauris libero, viverra non convallis in, tristique eget lacus. Vestibulum aliquet ultricies varius. Duis vitae nisi id nulla maximus aliquam. Donec vitae venenatis augue. Phasellus ac pharetra lorem. Fusce id finibus erat. Phasellus venenatis odio dolor, at pretium nunc blandit vel. Suspendisse faucibus iaculis lectus, mattis varius neque scelerisque ut. Aliquam quis ullamcorper libero. Proin tempus mauris non blandit accumsan. Donec maximus venenatis lectus a facilisis. Sed eget molestie velit. In hac habitasse platea dictumst.
+				<br />
+				Suspendisse potenti. Praesent erat risus, consequat interdum lacus a, semper egestas nisl. Curabitur metus arcu, imperdiet nec scelerisque a, tempor nec nibh. Ut ut eleifend nulla. Nulla vestibulum lacinia accumsan. Pellentesque id sem turpis. In a pretium dui. Mauris tincidunt sem sed ipsum feugiat placerat id id erat. Mauris id justo sit amet leo laoreet porta a vel libero.
+			</p>
+		</div>
+		<hr />
+		<div>
+			<!-- âncora: email -->
+			<a name="email"></a>
+			<h3>HTML - Texto de e-mail</h3>
+			<p align="right">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur elit, sit amet porttitor est. In quis arcu congue, sollicitudin leo eget, euismod mi. Etiam pretium sem sed tortor suscipit volutpat. Donec placerat est velit, nec mattis mi pharetra interdum. Cras egestas dolor id nulla efficitur cursus. Fusce vulputate purus vel ornare dictum. Aenean consequat imperdiet justo sit amet aliquam.
+				<br />
+				<br />
+				Donec ultricies libero augue, eu porta nisl bibendum eget. Phasellus tempus interdum mauris pharetra accumsan. Proin dolor tortor, dignissim non consequat non, fermentum at dui. Suspendisse nulla augue, sodales nec efficitur et, dignissim et ex. Proin vel bibendum ex. Proin condimentum ipsum sed porttitor rutrum. Pellentesque tempor, mi sed condimentum rutrum, turpis est posuere lectus, ac feugiat mi massa vitae purus. Nunc euismod blandit ornare. Proin condimentum at justo non cursus. Nulla facilisi. Nulla facilisi. Quisque volutpat nunc eget nibh mollis, a molestie turpis euismod. Integer faucibus dignissim rhoncus. Pellentesque ut aliquam arcu, eu dignissim nisl. Morbi a dui cursus, rutrum lorem sit amet, suscipit mauris. Ut eget varius erat, ac vestibulum neque.
+				<br />
+				<br />
+				Vestibulum lacus augue, facilisis sit amet justo id, aliquet blandit urna. Suspendisse eget scelerisque sapien. Duis non mi efficitur, imperdiet nunc nec, varius lacus. Cras diam tellus, imperdiet nec neque vitae, sagittis vulputate nunc. Integer vel aliquam augue. Fusce nunc lorem, imperdiet eget mauris vitae, pharetra ornare neque. Proin luctus urna eget tellus lobortis finibus. Phasellus et quam eu lacus aliquet rhoncus. Fusce in ligula elementum, molestie ligula vitae, blandit lorem. Maecenas placerat pellentesque felis nec sagittis. Morbi eu facilisis augue, et pulvinar quam. Quisque euismod efficitur augue, et egestas justo elementum id. Curabitur tempus lorem dui, at condimentum diam bibendum eu. In non tempor lectus, et gravida nisi. Donec tristique nec diam sed mollis. Curabitur in laoreet neque.
+				<br />
+				<br />
+				Nulla facilisi. Pellentesque mauris libero, viverra non convallis in, tristique eget lacus. Vestibulum aliquet ultricies varius. Duis vitae nisi id nulla maximus aliquam. Donec vitae venenatis augue. Phasellus ac pharetra lorem. Fusce id finibus erat. Phasellus venenatis odio dolor, at pretium nunc blandit vel. Suspendisse faucibus iaculis lectus, mattis varius neque scelerisque ut. Aliquam quis ullamcorper libero. Proin tempus mauris non blandit accumsan. Donec maximus venenatis lectus a facilisis. Sed eget molestie velit. In hac habitasse platea dictumst.
+				<br />
+				<br />
+				Suspendisse potenti. Praesent erat risus, consequat interdum lacus a, semper egestas nisl. Curabitur metus arcu, imperdiet nec scelerisque a, tempor nec nibh. Ut ut eleifend nulla. Nulla vestibulum lacinia accumsan. Pellentesque id sem turpis. In a pretium dui. Mauris tincidunt sem sed ipsum feugiat placerat id id erat. Mauris id justo sit amet leo laoreet porta a vel libero.
+			</p>
+		</div>
+		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('#notification').hide();
+				$('#login').click(function (e) {
+					e.preventDefault();
+					
+					var nameValid = "test";
+					var passValid = "123";
+					var delay = 2000;
+					var tdng = 'text-danger';
+					var awng = 'alert alert-warning';
+					var ascs = 'alert alert-success';
+					var msg = $('#notification');
+					var name = $('#name');
+					var nameBg = $('#nameBg');
+					var pass = $('#password');
+					var passBg = $('#passBg');
+					
+					msg.removeClass(ascs);
+					msg.addClass(awng);
+					
+					if (name.val() === null || name.val() === '') {
+						msg.show();
+						msg.html('Nome nulo, por favor preenchar o campo pendente.');
+						nameBg.addClass(tdng);
+						window.setTimeout(function () {
+							nameBg.removeClass(tdng);
+							msg.hide();
+						}, delay);
+						return;
+					}
+					
+					if (pass.val() === null || pass.val() === '') {
+						msg.show();
+						msg.html('Senha nula, por favor preenchar o campo pendente.');
+						passBg.addClass(tdng);
+						window.setTimeout(function () {
+							msg.hide();
+							passBg.removeClass(tdng);
+						}, delay);
+						return;
+					}
+					
+					if (name.val() !== nameValid) {
+						msg.show();
+						msg.html('Nome inválido.');
+						window.setTimeout(function () {
+							msg.hide();
+							msg.html('');
+						}, delay);
+						return;
+					}
+					
+					if (pass.val() !== passValid) {
+						msg.show();
+						msg.html('Senha inválida.');
+						window.setTimeout(function () {
+							msg.hide();
+							msg.html('');
+						}, delay);
+						return;
+					}
+					
+					msg.show();
+					msg.removeClass(awng);
+					msg.addClass(ascs);
+					msg.html("Login efetuado com sucesso!");
+				});
+			});
+		</script>
+	</body>
+</html>
