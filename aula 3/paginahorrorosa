@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<title>Aula 3 html</title>	
+	</head>
+	<body>
+		<div>
+			<a href="https://www.google.com/" style="color: white" target="_blank" title="Google" class="btn btn-sm btn-warning" role="button">
+				<span class="spinner-grow spinner-grow-sm text-light"></span>
+				Google
+			</a>
+			</hr>	
+			<a href="#top"> Ir para cima</a>
+			<a href="#text"> Aprender sobre links de texto</a>
+			<a href="#email"> Aprender sobre links de e-mail</a>
+		</div>
+		<div>
+			<a name="top"></a>
+			<br><br/>
+			<h1>HTML - Hipertexto de Referência</h1>
+			<p>
+			O Hipertexto é um conceito associado às tecnologias da informação e que faz referência à escrita eletrônica.
+
+			Desde sua origem, o hipertexto vem mudando a noção tradicional de autoria, uma vez que ele contempla diversos textos.
+
+			Trata-se, portanto, de uma espécie de obra coletiva, ou seja, apresenta textos dentro de outros, formando assim, uma grande rede de informações interativas.
+
+			Nesse sentido, sua maior diferença é justamente a forma de escrita e leitura. Assim, num texto tradicional a leitura segue uma linearidade, enquanto no hipertexto ela é não-linear.
+			</p>
+			<h2>HTML - Links de Texto</h2>
+			<h3>HTML - Texto de E-mail</h3>
+			</div>
+		<div>
+			<a href="http://www.google.com/"
+				title="Imagem para link">
+			<img alt="Texti Alternativo se a imagem não aparecer" src="hipertexto.jpg" width="120!
+			height="75"/>
+			</a>
+			</div>
+	</body>
+</html>
