@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Aula 5 - Exercício 1</title>
+</head>
+
+<style>
+    p,
+    label {
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <div class="jumbotron">
+        <p aling="justify">
+            <h1>Exercício 1</h1>
+            <hr />
+            Organize um formulário HTML para coletar as seguintes informações acerca de uma candidato para um
+            determinado curso superior (TADS, SI, TRC, etc):
+            <br />
+            <br />
+            <div align="center">
+                <img src="exercicio-1.png" title="Exercício 1 - Exemplo" alt="exercicio-1.png" />
+            </div>
+        </p>
+    </div>
+
+    <br />
+
+    <form id="exercicio-1" action="aula 5 - BS4 Layout (Exercício 1).html" method="GET" target="blank_">
+        <div class="form-group">
+            <label for="email">Endereço de e-mail:</label>
+            <input type="email" class="form-control" name="email" placeholder="Digite seu e-mail" />
+        </div>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" name="name" placeholder="Digite seu nome" />
+        </div>
+        <div class="form-group">
+            <label for="sexo">Sexo:</label>
+            <select class="form-control" name="sexo">
+                <option value="invalid" disabled selected>Escolha o sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="curso">Curso:</label>
+            <select class="form-control" name="curso" form="exercicio-1">
+                <option value="invalid" disabled selected>Escolha o curso</option>
+                <option value="es">Engenharia de Software</option>
+                <option value="tads">TADS</option>
+                <option value="si">SI</option>
+                <option value="trc">TRC</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="endereco">Endereço para correspondência:</label>
+            <input type="text" class="form-control" name="endereco" placeholder="Digite seu endereço" />
+        </div>
+        <div class="form-group">
+            <label for="cep">CEP:</label>
+            <input type="text" class="form-control" name="cep" placeholder="Digite seu CEP" />
+        </div>
+        <div class="form-group">
+            <label for="municipio">Minicípio:</label>
+            <div class="form-inline">
+                <input type="text" class="form-control col-8" name="municipio" placeholder="Digite seu município" />
+                <select class="form-control" id="estado" name="estado">
+                    <option value="invalid" disabled selected>Escolha o estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+    </form>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
